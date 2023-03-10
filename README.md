@@ -29,3 +29,6 @@ words were popular.
 ### Count the number of comments in different subreddits
 Count the number of comments in different subreddits and show the increase,
 month by month, leader board.
+
+## Necessary installations (Ubuntu)
+sudo apt-get install jq
