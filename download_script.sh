@@ -4,7 +4,7 @@ for i in 06 07 08 09 10;
     do
         wget  "http://files.pushshift.io/reddit/comments/RC_20$i-$j.zst"
         zstd -d RC_20$i-$j.zst --long=31
-        jq '{body: .body, subreddit: .subreddit}' RC_20$i-$j > RC_20$i-$j.json
+        jq --compact-output '{body: .body, subreddit: .subreddit}' RC_20$i-$j > RC_20$i-$j.json
         rm RC_20$i-$j.zst
         rm RC_20$i-$j
     done
