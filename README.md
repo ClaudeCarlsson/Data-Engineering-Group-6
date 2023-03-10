@@ -1,9 +1,13 @@
 # Data Engineering Group 6
 
 Aria Assadi
+
 Claude Carlsson
+
 Sebastian Mikkelsen Toth
+
 Kulathunga Hettiarachchige Vidumini Saumya
+
 Tofte Tjörneryd
 
 
