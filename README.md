@@ -1,4 +1,4 @@
-# Data Engineering Group 6
+# Data Engineering Group 6 - Reddit Dataset
 
 ## Authors: 
 Aria Assadi <br> 
