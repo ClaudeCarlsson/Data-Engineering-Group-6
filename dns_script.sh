@@ -1,3 +1,4 @@
+# The "dns" part
 for i in {1..4};
 do
 for j in {1..255};
@@ -12,5 +13,7 @@ hostname
 
 echo "sudo hostname host-$(hostname -I | awk '{$1=$1};1' | sed 's/\./-/'g)" | sudo tee -a /home/ubuntu/.profile
 
+
+# Not part of the dns, but we still need to set these enviroment variables for future tasks
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 echo JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64 | sudo tee -a /etc/environment
