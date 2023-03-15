@@ -7,8 +7,10 @@ Sebastian Mikkelsen Toth <br>
 Kulathunga Hettiarachchige Vidumini Saumya<br> 
 Tofte Tjörneryd <br> 
 
+## Dataset
+The dataset used in this analysis comes from https://files.pushshift.io/reddit/comments/ 
 
-## Ideas for questions to answer in the project:
+## The goal for the project:
 
 ### Find the key-words that define each year
 Finding the top one hundred most used words from each year is a pretty simple
