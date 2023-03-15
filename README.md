@@ -26,9 +26,8 @@ such as ”Instagram”, should output 2010. This idea should be helpful in orde
 find when inventions or trends were introduced, but also to find when certain
 words were popular.
 
-### Count the number of comments in different subreddits
-Count the number of comments in different subreddits and show the increase,
-month by month, leader board.
+### Count the number of comments in different subreddits to display a leaderboard
+Count the number of comments in different subreddits and display a leaderboard, year by year.
 
 ## Necessary installations (Ubuntu)
 sudo apt-get install jq
