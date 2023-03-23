@@ -30,6 +30,8 @@ words were popular.
 
 ### Count the number of comments in different subreddits to display a leaderboard
 Count the number of comments in different subreddits and display a leaderboard, year by year.
-
+<!---
+All the requirements should be included or none.
 ## Necessary installations (Ubuntu)
 sudo apt-get install jq
+--->
